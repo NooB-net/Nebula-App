@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <com.nebula.app.ui.views.SplashStarsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/splash_stars"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.nebula.app.ui.views.SplashTitleView
+            android:id="@+id/splash_title"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/splash_line_left"
+                android:layout_width="34dp"
+                android:layout_height="1dp"
+                android:background="@color/nebula_splash_line"/>
+
+            <TextView
+                android:id="@+id/tv_splash_tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="14dp"
+                android:text="Explore the Universe"
+                android:textSize="16sp"
+                android:textColor="@color/nebula_text_secondary"
+                android:letterSpacing="0.04"/>
+
+            <View
+                android:id="@+id/splash_line_right"
+                android:layout_width="34dp"
+                android:layout_height="1dp"
+                android:background="@color/nebula_splash_line"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

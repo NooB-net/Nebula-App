@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nebula.app-mergeDebugResources-50:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LAPTOP 3\\.gradle\\caches\\transforms-3\\b59d239bbdc480a58e10af65e1ae5f72\\transformed\\material-1.7.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,9,12,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,140,239,326,427,626,839,1040",
+                        "endLines": "2,3,4,5,8,11,14,17",
+                        "endColumns": "84,98,86,100,10,10,10,10",
+                        "endOffsets": "135,234,321,422,621,834,1035,1250"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,12,15,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "402,487,586,673,774,973,1186,1387",
+                        "endLines": "5,6,7,8,11,14,17,20",
+                        "endColumns": "84,98,86,100,10,10,10,10",
+                        "endOffsets": "482,581,668,769,968,1181,1382,1597"
+                    }
+                },
+                {
+                    "source": "D:\\Nebula\\app\\src\\main\\res\\values-v24\\colors_system_bars.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LAPTOP 3\\.gradle\\caches\\transforms-3\\e6ac26bc31b0525876c1ee0daa4b42b9\\transformed\\appcompat-1.5.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "110,267",
+                        "endColumns": "156,134",
+                        "endOffsets": "262,397"
+                    }
+                }
+            ]
+        }
+    ]
+}

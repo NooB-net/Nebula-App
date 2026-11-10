@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Socials feed: any signed-in NEBULA user can read and post.
+    // You can only create posts as yourself, and only delete your own.
+    match /posts/{postId} {
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.notes is string
+                    && request.resource.data.notes.size() <= 500
+                    && request.resource.data.image is string
+                    && request.resource.data.image.size() < 900000;
+
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow update: if false;
+    }
+  }
+}

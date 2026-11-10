@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nebula colour tokens: DARK theme. Same names as values/colors.xml (light). -->
+<resources>
+    <!-- Surfaces -->
+    <color name="nebula_bg">#080B1A</color>
+    <color name="nebula_surface">#10152A</color>
+    <color name="nebula_card">#161D3A</color>
+    <color name="nebula_divider">#1E2A4A</color>
+    <color name="nebula_media_placeholder">#0B1030</color>
+    <color name="status_bar_color">#080B1A</color>
+
+    <!-- Brand -->
+    <color name="nebula_primary">#7B2FBE</color>
+    <color name="nebula_primary_dark">#5A1F9A</color>
+    <color name="nebula_secondary">#4A90E2</color>
+    <color name="nebula_accent">#A855F7</color>
+    <color name="nebula_accent_soft">#C4A4FF</color>
+    <color name="nebula_on_primary">#FFFFFF</color>
+    <color name="nebula_button_start">#7B2FBE</color>
+    <color name="nebula_button_end">#A855F7</color>
+
+    <!-- Text -->
+    <color name="nebula_text_primary">#FFFFFF</color>
+    <color name="nebula_text_secondary">#B0B8D1</color>
+    <color name="nebula_text_body">#D0D5EA</color>
+    <color name="nebula_text_muted">#8A93B5</color>
+    <color name="nebula_text_faint">#6F789C</color>
+    <color name="nebula_text_highlight">#E4D4FF</color>
+
+    <!-- Icons / controls -->
+    <color name="nebula_icon">#FFFFFF</color>
+    <color name="nebula_nav_selected">#C084FC</color>
+    <color name="nebula_nav_unselected">#8A93B5</color>
+    <color name="nebula_input_stroke">#5A6690</color>
+    <color name="nebula_pill_bg">#26FFFFFF</color>
+
+    <!-- Status -->
+    <color name="nebula_danger">#FF6B6B</color>
+    <color name="nebula_like">#FF6B9D</color>
+    <color name="nebula_success">#7CFFB2</color>
+
+    <!-- Sky-event categories -->
+    <color name="color_meteor">#FF6B6B</color>
+    <color name="color_eclipse">#FF8C42</color>
+    <color name="color_moon">#C4A4FF</color>
+    <color name="color_iss">#00D4FF</color>
+    <color name="color_conjunction">#FFD700</color>
+    <color name="color_planet">#98FB98</color>
+
+    <!-- Splash animation -->
+    <color name="nebula_splash_star">#FFFFFF</color>
+    <color name="nebula_splash_glow_center">#997B2FBE</color>
+    <color name="nebula_splash_glow_mid">#447B2FBE</color>
+    <color name="nebula_splash_core">#FFFFFF</color>
+    <color name="nebula_splash_ring">#F29BFF</color>
+    <color name="nebula_splash_line">#9AA7E8</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_white">#33FFFFFF</color>
+</resources>

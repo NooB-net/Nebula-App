@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/nebula_surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remind me"
+            android:textColor="@color/nebula_text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_rem_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/nebula_text_secondary"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="WHEN"
+            android:textColor="@color/nebula_accent"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cg_when"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip android:id="@+id/ch_at_time"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="At event time" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_5m"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="5 min before" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_15m"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="15 min before" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_30m"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="30 min before" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_1h"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="1 hour before" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_1d"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="1 day before" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_1w"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="1 week before" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_custom"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Custom date &amp; time" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:id="@+id/tv_custom_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_card"
+            android:padding="14dp"
+            android:text="Tap to pick date &amp; time"
+            android:textColor="@color/nebula_text_highlight"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="REPEAT"
+            android:textColor="@color/nebula_accent"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cg_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip android:id="@+id/ch_rep_none"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:checked="true" android:text="Never" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_rep_daily"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Daily until event" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+            <com.google.android.material.chip.Chip android:id="@+id/ch_rep_weekly"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Weekly until event" android:textColor="@color/chip_text"
+                app:chipBackgroundColor="@color/chip_bg" app:chipStrokeColor="@color/chip_stroke" app:chipStrokeWidth="1dp" app:checkedIconVisible="false"/>
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Note (optional)"
+            android:textColorHint="@color/nebula_text_muted"
+            app:boxStrokeColor="@color/box_stroke"
+            app:hintTextColor="@color/nebula_accent_soft">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_rem_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:maxLines="2"
+                android:textColor="@color/nebula_text_primary"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_rem_save"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="Save reminder"
+            android:textAllCaps="false"
+            android:textColor="@color/nebula_on_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/ll_rem_existing_wrap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YOUR REMINDERS FOR THIS EVENT"
+                android:textColor="@color/nebula_accent"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"/>
+
+            <LinearLayout
+                android:id="@+id/ll_rem_existing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

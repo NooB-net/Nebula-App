@@ -1,0 +1,107 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.nebula.app'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.nebula.app"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'androidx.lifecycle:lifecycle-viewmodel:2.5.1'
+        force 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+        force 'androidx.lifecycle:lifecycle-livedata:2.5.1'
+        force 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+        force 'androidx.lifecycle:lifecycle-livedata-core:2.5.1'
+        force 'androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1'
+        force 'androidx.lifecycle:lifecycle-runtime:2.5.1'
+        force 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+        force 'androidx.lifecycle:lifecycle-common:2.5.1'
+        force 'androidx.activity:activity:1.5.1'
+        force 'androidx.activity:activity-ktx:1.5.1'
+        force 'androidx.fragment:fragment:1.5.5'
+        force 'androidx.fragment:fragment-ktx:1.5.5'
+    }
+}
+
+dependencies {
+    // AndroidX core
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.fragment:fragment:1.5.5'
+    implementation 'androidx.fragment:fragment-ktx:1.5.5'
+    implementation 'androidx.activity:activity:1.5.1'
+    implementation 'androidx.activity:activity-ktx:1.5.1'
+
+    // Lifecycle (unified on 2.5.1 to prevent duplicate classes)
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+
+    implementation 'androidx.work:work-runtime:2.8.0'
+    implementation 'androidx.preference:preference:1.2.0'
+
+    // Room Database
+    implementation 'androidx.room:room-runtime:2.5.2'
+    annotationProcessor 'androidx.room:room-compiler:2.5.2'
+
+    // Retrofit + OkHttp
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+
+    // Firebase (BOM)
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-database'
+
+    // Glide for images
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+
+    // Google Play Services
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}

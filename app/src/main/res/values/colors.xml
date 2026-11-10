@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Nebula colour tokens: LIGHT theme (default).
+  The DARK theme lives in values-night/colors.xml and MUST define exactly the same names.
+  Never hardcode a hex colour in a layout / drawable / Java file: add or reuse a token here.
+  Colours that must look identical in both themes (text on photos, camera overlays, scrims)
+  live in colors_media.xml instead.
+-->
+<resources>
+    <!-- Surfaces -->
+    <color name="nebula_bg">#F3F4FB</color>
+    <color name="nebula_surface">#FFFFFF</color>
+    <color name="nebula_card">#FFFFFF</color>
+    <color name="nebula_divider">#D5DAEE</color>
+    <color name="nebula_media_placeholder">#E3E6F5</color>
+    <color name="status_bar_color">#F3F4FB</color>
+
+    <!-- Brand -->
+    <color name="nebula_primary">#7B2FBE</color>
+    <color name="nebula_primary_dark">#5A1F9A</color>
+    <color name="nebula_secondary">#2563C9</color>
+    <color name="nebula_accent">#7E22CE</color>
+    <color name="nebula_accent_soft">#6D28D9</color>
+    <color name="nebula_on_primary">#FFFFFF</color>
+    <color name="nebula_button_start">#6D28D9</color>
+    <color name="nebula_button_end">#9333EA</color>
+
+    <!-- Text -->
+    <color name="nebula_text_primary">#141836</color>
+    <color name="nebula_text_secondary">#4A5275</color>
+    <color name="nebula_text_body">#2B3257</color>
+    <color name="nebula_text_muted">#5C6589</color>
+    <color name="nebula_text_faint">#656E90</color>
+    <color name="nebula_text_highlight">#5B21B6</color>
+
+    <!-- Icons / controls -->
+    <color name="nebula_icon">#2A2D5A</color>
+    <color name="nebula_nav_selected">#6D28D9</color>
+    <color name="nebula_nav_unselected">#5C6589</color>
+    <color name="nebula_input_stroke">#7F88AE</color>
+    <color name="nebula_pill_bg">#147B2FBE</color>
+
+    <!-- Status -->
+    <color name="nebula_danger">#C62828</color>
+    <color name="nebula_like">#D81B60</color>
+    <color name="nebula_success">#166534</color>
+
+    <!-- Sky-event categories -->
+    <color name="color_meteor">#C62828</color>
+    <color name="color_eclipse">#B8470B</color>
+    <color name="color_moon">#6D28D9</color>
+    <color name="color_iss">#00698A</color>
+    <color name="color_conjunction">#8A5A00</color>
+    <color name="color_planet">#2E7D32</color>
+
+    <!-- Splash animation -->
+    <color name="nebula_splash_star">#4C2A9E</color>
+    <color name="nebula_splash_glow_center">#407B2FBE</color>
+    <color name="nebula_splash_glow_mid">#187B2FBE</color>
+    <color name="nebula_splash_core">#6D28D9</color>
+    <color name="nebula_splash_ring">#8B3FD6</color>
+    <color name="nebula_splash_line">#7B5BC4</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_white">#33FFFFFF</color>
+</resources>

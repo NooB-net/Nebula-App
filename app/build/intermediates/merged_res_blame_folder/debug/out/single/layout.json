@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_event_detail.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_event_detail.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/fragment_home.xml",
+        "source": "com.nebula.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/fragment_social.xml",
+        "source": "com.nebula.app-main-54:/layout/fragment_social.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_iss_track.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_iss_track.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_login.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/fragment_events.xml",
+        "source": "com.nebula.app-main-54:/layout/fragment_events.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/fragment_track.xml",
+        "source": "com.nebula.app-main-54:/layout/fragment_track.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/item_social_post.xml",
+        "source": "com.nebula.app-main-54:/layout/item_social_post.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/dialog_reminder.xml",
+        "source": "com.nebula.app-main-54:/layout/dialog_reminder.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_photo_detail.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_photo_detail.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_splash.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/fragment_lens.xml",
+        "source": "com.nebula.app-main-54:/layout/fragment_lens.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/item_pass.xml",
+        "source": "com.nebula.app-main-54:/layout/item_pass.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_create_post.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_create_post.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/item_sky_event.xml",
+        "source": "com.nebula.app-main-54:/layout/item_sky_event.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_sky_lens.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_sky_lens.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_register.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_profile.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.nebula.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.nebula.app-main-54:/layout/activity_main.xml"
+    }
+]

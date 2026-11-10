@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "581199267830",
+    "firebase_url": "https://nebula-d8c11-default-rtdb.firebaseio.com",
+    "project_id": "nebula-d8c11",
+    "storage_bucket": "nebula-d8c11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581199267830:android:eaa37e06136105effca9d7",
+        "android_client_info": {
+          "package_name": "com.nebula.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581199267830-7o3kdf8lbaqjec088u6m019r7rcj2nii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpR-DR9qllUB-O-zqHj-WJygUAtepV64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581199267830-7o3kdf8lbaqjec088u6m019r7rcj2nii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

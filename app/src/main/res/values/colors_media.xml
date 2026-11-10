@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Colours that stay the SAME in light and dark mode: anything drawn on top of a photo,
+  the camera preview or a scrim. Those backgrounds are always dark, so their text is always light.
+-->
+<resources>
+    <color name="nebula_on_media">#FFFFFF</color>
+    <color name="nebula_on_media_secondary">#D9DDF0</color>
+    <color name="nebula_media_scrim_start">#00080B1A</color>
+    <color name="nebula_media_scrim_end">#E6080B1A</color>
+    <color name="nebula_media_button_bg">#80000000</color>
+    <color name="nebula_media_label_bg">#80000000</color>
+</resources>

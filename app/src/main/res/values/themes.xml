@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      One theme for both modes. Light/dark is NOT decided here: every colour below is a token that
+      resolves to values/colors.xml (light) or values-night/colors.xml (dark) automatically,
+      and Android recreates the screen when the system theme changes.
+    -->
+    <style name="Theme.Nebula" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Material colour roles (drive dialogs, snackbars, switches, text fields, cursor...) -->
+        <item name="colorPrimary">@color/nebula_accent</item>
+        <item name="colorPrimaryVariant">@color/nebula_primary_dark</item>
+        <item name="colorOnPrimary">@color/nebula_on_primary</item>
+        <item name="colorPrimaryDark">@color/nebula_primary_dark</item>
+        <item name="colorAccent">@color/nebula_accent</item>
+        <item name="colorSecondary">@color/nebula_accent</item>
+        <item name="colorSecondaryVariant">@color/nebula_primary_dark</item>
+        <item name="colorOnSecondary">@color/nebula_on_primary</item>
+        <item name="colorSurface">@color/nebula_surface</item>
+        <item name="colorOnSurface">@color/nebula_text_primary</item>
+        <item name="android:colorBackground">@color/nebula_bg</item>
+        <item name="colorOnBackground">@color/nebula_text_primary</item>
+        <item name="colorError">@color/nebula_danger</item>
+
+        <!-- Window + system bars (icons flip dark/light with the theme) -->
+        <item name="android:windowBackground">@color/nebula_bg</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nebula_nav_bar_color</item>
+        <item name="android:windowLightStatusBar">@bool/nebula_light_bars</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">@bool/nebula_light_bars</item>
+
+        <!-- Defaults for any text that doesn't set its own colour -->
+        <item name="android:textColor">@color/nebula_text_primary</item>
+        <item name="android:textColorPrimary">@color/nebula_text_primary</item>
+        <item name="android:textColorSecondary">@color/nebula_text_secondary</item>
+        <item name="android:textColorHint">@color/nebula_text_muted</item>
+    </style>
+
+    <style name="Theme.Nebula.Splash" parent="Theme.Nebula">
+        <item name="android:windowBackground">@color/nebula_bg</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Nebula.NoActionBar" parent="Theme.Nebula">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Nebula.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Nebula.BottomSheet</item>
+    </style>
+
+    <style name="Widget.Nebula.BottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@color/nebula_surface</item>
+    </style>
+</resources>

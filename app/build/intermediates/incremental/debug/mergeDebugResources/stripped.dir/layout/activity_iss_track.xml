@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/nebula_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="@drawable/bg_card"
+            android:padding="8dp"
+            android:layout_marginEnd="12dp"
+            android:tint="@color/nebula_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISS Tracker"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/nebula_text_primary"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live ISS tracking is active. Check the Track tab for real-time data."
+        android:textColor="@color/nebula_text_secondary"
+        android:textSize="14sp"
+        android:lineSpacingMultiplier="1.5"/>
+
+</LinearLayout>

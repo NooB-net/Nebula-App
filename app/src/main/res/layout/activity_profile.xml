@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nebula_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="32dp">
+
+            <ImageButton
+                android:id="@+id/ib_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_media_previous"
+                android:background="@drawable/bg_card"
+                android:padding="8dp"
+                android:layout_marginEnd="12dp"
+                android:tint="@color/nebula_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/nebula_text_primary"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_profile"
+            android:background="@drawable/bg_card"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/nebula_text_primary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/nebula_text_secondary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="NOTIFICATIONS"
+            android:textColor="@color/nebula_accent"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_daily_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Daily space photo"
+            android:textColor="@color/nebula_text_primary"
+            android:textSize="15sp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_hourly_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Hourly space headline"
+            android:textColor="@color/nebula_text_primary"
+            android:textSize="15sp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Sound effects"
+            android:textColor="@color/nebula_text_primary"
+            android:textSize="15sp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_nudge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:minHeight="48dp"
+            android:text="Nudge me if I haven't visited in a day"
+            android:textColor="@color/nebula_text_primary"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Logout"
+            android:background="@drawable/bg_button_primary"
+            android:textColor="@color/nebula_on_primary"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nebula.app-mergeDebugResources-50:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LAPTOP 3\\.gradle\\caches\\transforms-3\\1ab58d93d9833e8bb9e7ba108193a04d\\transformed\\preference-1.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

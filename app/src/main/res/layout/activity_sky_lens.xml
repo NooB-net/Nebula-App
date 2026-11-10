@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.nebula.app.ui.views.CameraPreviewView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.nebula.app.ui.views.ConstellationOverlayView
+        android:id="@+id/constellation_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/ib_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@drawable/bg_pill_media"
+        android:padding="8dp"
+        android:tint="@color/nebula_on_media"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point at the sky · tap a constellation"
+        android:textColor="@color/nebula_on_media"
+        android:textSize="14sp"
+        android:background="@color/nebula_media_label_bg"
+        android:padding="8dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+</FrameLayout>

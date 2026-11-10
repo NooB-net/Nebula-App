@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_img_crew_moon_city.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/img_crew_moon_city.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_fragment_lens.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/fragment_lens.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/xml_network_security_config.xml.flat",
+        "source": "com.nebula.app-main-54:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/color_box_stroke.xml.flat",
+        "source": "com.nebula.app-main-54:/color/box_stroke.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/color_chip_bg.xml.flat",
+        "source": "com.nebula.app-main-54:/color/chip_bg.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.nebula.app-main-54:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_earth_day.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/earth_day.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_photo_detail.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_photo_detail.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/color_nav_item.xml.flat",
+        "source": "com.nebula.app-main-54:/color/nav_item.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_location.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_profile.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_register.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_img_event_meteor.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/img_event_meteor.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_scrim.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_scrim.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_lens.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_lens.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_star.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_dialog_reminder.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/dialog_reminder.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_fragment_social.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/fragment_social.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_events.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_events.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "com.nebula.app-main-54:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_button_primary.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.nebula.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_gradient.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_fragment_track.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/fragment_track.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_iss_track.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_iss_track.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_event_detail.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_event_detail.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/raw_constellation.wav.flat",
+        "source": "com.nebula.app-main-54:/raw/constellation.wav"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/color_chip_stroke.xml.flat",
+        "source": "com.nebula.app-main-54:/color/chip_stroke.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_notification.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_splash.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_home.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.nebula.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/raw_startup.ogg.flat",
+        "source": "com.nebula.app-main-54:/raw/startup.ogg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/color_chip_text.xml.flat",
+        "source": "com.nebula.app-main-54:/color/chip_text.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_img_orion_nebula.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/img_orion_nebula.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_bottom_nav.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_bottom_nav.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_sky_lens.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_sky_lens.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_img_crew_meteor.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/img_crew_meteor.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_share.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_card.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.nebula.app-main-54:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_fragment_home.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_profile.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/raw_like.wav.flat",
+        "source": "com.nebula.app-main-54:/raw/like.wav"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/xml_file_paths.xml.flat",
+        "source": "com.nebula.app-main-54:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_earth_lights.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/earth_lights.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_fragment_events.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/fragment_events.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_login.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_pill.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_pill.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/raw_posted.wav.flat",
+        "source": "com.nebula.app-main-54:/raw/posted.wav"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_track.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_track.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/raw_bell.wav.flat",
+        "source": "com.nebula.app-main-54:/raw/bell.wav"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_img_event_eclipse.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/img_event_eclipse.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_item_pass.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/item_pass.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_bg_pill_media.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/bg_pill_media.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_item_social_post.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/item_social_post.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_activity_create_post.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/activity_create_post.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_crew.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_crew.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable-nodpi_img_event_fullmoon.jpg.flat",
+        "source": "com.nebula.app-main-54:/drawable-nodpi/img_event_fullmoon.jpg"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.nebula.app-main-54:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/layout_item_sky_event.xml.flat",
+        "source": "com.nebula.app-main-54:/layout/item_sky_event.xml"
+    },
+    {
+        "merged": "com.nebula.app-merged_res-52:/drawable_ic_add.xml.flat",
+        "source": "com.nebula.app-main-54:/drawable/ic_add.xml"
+    }
+]

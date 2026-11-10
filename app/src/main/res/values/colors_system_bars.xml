@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Navigation-bar colour. Light theme = white bar with dark icons.
+  Dark icons on the nav bar only exist from API 27, so values-v24 keeps the bar dark on Android 7.0-8.0
+  (where light icons are the only option) and values-v27 restores the white bar on 8.1 and up.
+  Dark theme is in values-night.
+-->
+<resources>
+    <color name="nebula_nav_bar_color">#FFFFFF</color>
+</resources>

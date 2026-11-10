@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pill / button that sits ON a photo or the camera: always dark, so its white content is always visible. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/nebula_media_button_bg"/>
+    <corners android:radius="12dp"/>
+</shape>
